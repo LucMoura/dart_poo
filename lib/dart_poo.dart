@@ -23,3 +23,14 @@ int funcQuantosDiasMadura(int dias) {
   int quantosDiasFaltam = diasParaMadura - dias;
   return quantosDiasFaltam;
 }
+
+class Fruta{
+  String nome;
+  double peso;
+  String cor;
+  String sabor;
+  int diasDesdeColheita;
+  bool? isMadura;
+
+  Fruta(this.nome, this.peso, this.sabor, this.cor, this.diasDesdeColheita, {this.isMadura});
+}

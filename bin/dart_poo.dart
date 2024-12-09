@@ -1,15 +1,14 @@
-void main() {
-  String nome = "Laranja";
-  double peso = 100.2;
-  String cor = "Verde e Amarela";
-  String sabor = "Doce e cítrica";
-  int diasDesdeColheita = 40;
-  bool? isMadura;
+import 'package:dart_poo/dart_poo.dart';
 
-  if (diasDesdeColheita >= 30) {
-    isMadura = true;
+void main() {
+  Fruta fruta01 = Fruta("Laranja", 80.1, "doce", "Laranja", 3);
+
+
+  
+  if (fruta01.diasDesdeColheita >= 30) {
+    fruta01.isMadura = true;
   } else {
-    isMadura = false;
+    fruta01.isMadura = false;
   }
 }
 
