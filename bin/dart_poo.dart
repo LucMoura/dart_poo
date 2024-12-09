@@ -2,14 +2,10 @@ import 'package:dart_poo/dart_poo.dart';
 
 void main() {
   Fruta fruta01 = Fruta("Laranja", 80.1, "doce", "Laranja", 3);
+  Fruta fruta02 = Fruta("Pessego", 14, "pessego", "cor de pessego", 4);
 
-
-  
-  if (fruta01.diasDesdeColheita >= 30) {
-    fruta01.isMadura = true;
-  } else {
-    fruta01.isMadura = false;
-  }
+  fruta01.estaMadura(30);
+  fruta02.estaMadura(1);
 }
 
 
