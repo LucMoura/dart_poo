@@ -29,7 +29,7 @@ class Legumes extends Alimento{
 
   void cozinhar(){
     if(isPrecisaCozinhar){
-      print("Pronto, o $nome esta cozinhado");
+      print("Pronto, o(a) $nome esta cozinhado");
     }else{
       print("Nahhh coma cru");
     }
@@ -48,7 +48,7 @@ class Citricas extends Fruta{
       print("Existe refri de $nome");
     }else{
     print("Não existe refri de $nome");
-    
+
     }
   }
 }
