@@ -21,6 +21,10 @@ class Fruta extends Alimento{
       isMadura = diasDesdeColheita >= diasParaMadura;
       print("A sua $nome foi colhida a $diasDesdeColheita dias e precisa de $diasParaMadura para poder comer.\nEla está maduras = $isMadura");
   }
+
+  void fazerSuco(){
+    print("Você fez um ótimo suco de $nome");
+  }
 }
 class Legumes extends Alimento{
   bool isPrecisaCozinhar;
@@ -34,7 +38,6 @@ class Legumes extends Alimento{
       print("Nahhh coma cru");
     }
   }
-
   
 }
 
